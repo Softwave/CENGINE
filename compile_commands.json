@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-w",
+      "-std=c++14",
+      "-Wfatal-errors",
+      "-I./lib/lua",
+      "-I./lib/imgui",
+      "-I./lib/imgui/backends",
+      "-o",
+      "game",
+      "./cengine.cpp"
+    ],
+    "directory": "/home/discovery/Documents/Dev/Cengine",
+    "file": "/home/discovery/Documents/Dev/Cengine/cengine.cpp",
+    "output": "/home/discovery/Documents/Dev/Cengine/game"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-w",
+      "-std=c++14",
+      "-Wfatal-errors",
+      "-I./lib/lua",
+      "-I./lib/imgui",
+      "-I./lib/imgui/backends",
+      "-o",
+      "game",
+      "./main.cpp"
+    ],
+    "directory": "/home/discovery/Documents/Dev/Cengine",
+    "file": "/home/discovery/Documents/Dev/Cengine/main.cpp",
+    "output": "/home/discovery/Documents/Dev/Cengine/game"
+  }
+]
